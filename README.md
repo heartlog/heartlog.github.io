@@ -6,6 +6,7 @@ I'm [Reiyuura](https://hazaku-rei.pages.dev)
 
 :page_with_curl: I'm currently learning:
 - Html
+
 - CSS
 
 - JavaScript

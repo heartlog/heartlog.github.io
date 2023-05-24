@@ -15,7 +15,7 @@ textarea {
 
 /* Dark mode styles */
 body.dark-mode {
-  background-color: #333333;
+  --bs-body-color: #adb5bd;
   color: #ffffff;
 }
 

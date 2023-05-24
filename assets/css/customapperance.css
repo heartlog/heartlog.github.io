@@ -6,10 +6,43 @@ body {
   color: var(--text-color);
 }
 
+textarea {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000000;
+}
+
 /* Dark mode styles */
+body.dark-mode {
+  --bs-body-color: #adb5bd;
+  --bs-secondary-text-emphasis: #a7acb1;
+}
+
+body.dark-mode textarea {
+  background-color: #333333;
+  color: #ff6464;
+}
+
+body.dark-mode .navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+}
+/* second code */
+/* Light mode styles 
+body {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}*)
+
+/* Dark mode styles 
 body.dark-mode {
   --bg-color: #333333;
   --text-color: #ffffff;
   background-color: var(--bg-color);
   color: var(--text-color);
 }
+*/

@@ -16,7 +16,7 @@ textarea {
 /* Dark mode styles */
 body.dark-mode {
   --bs-body-color: #adb5bd;
-  color: #ffffff;
+  --bs-secondary-text-emphasis: #a7acb1;
 }
 
 body.dark-mode textarea {

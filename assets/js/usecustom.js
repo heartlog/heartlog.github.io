@@ -20,7 +20,7 @@ function downloadPhoto("https://api.pikwy.com/web/6470e45342841d01fb3b482f.jpg")
     });
 }
 
-function dowP(url) {
+function dowP("https://api.pikwy.com/web/6470e45342841d01fb3b482f.jpg") {
   // Create an anchor element
   var link = document.createElement('a');
   link.href = url;

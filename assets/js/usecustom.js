@@ -1,4 +1,4 @@
-function downloadPhoto(url) {
+function downloadPhoto("https://api.pikwy.com/web/6470e45342841d01fb3b482f.jpg") {
   // Fetch the image data
   fetch(url)
     .then(response => response.blob())

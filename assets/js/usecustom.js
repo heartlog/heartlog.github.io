@@ -19,3 +19,16 @@ function downloadPhoto("https://api.pikwy.com/web/6470e45342841d01fb3b482f.jpg")
       URL.revokeObjectURL(blobUrl);
     });
 }
+
+function dowP(url) {
+  // Create an anchor element
+  var link = document.createElement('a');
+  link.href = url;
+  link.target = '_blank';
+  link.download = 'photo.png'; // Set the desired file name here
+
+  // Programmatically trigger the download
+  var event = document.createEvent('MouseEvents');
+  event.initEvent('click', true, false);
+  link.dispatchEvent(event);
+}
